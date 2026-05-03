@@ -26,13 +26,13 @@ export default function Slider() {
 
         <SwiperSlide>
           <div className="h-full bg-blue-200 flex items-center justify-center text-2xl font-semibold">
-          <img src={slider2} className="w-full" alt="" />
+          <img src={slider2} className="w-full h-full" alt="" />
           </div>
         </SwiperSlide>
 
         <SwiperSlide>
           <div className="h-full bg-green-200 flex items-center justify-center text-2xl font-semibold">
-           <img src={slider3} className="w-full" alt="" />
+           <img src={slider3} className="w-full h-full" alt="" />
           </div>
         </SwiperSlide>
 
