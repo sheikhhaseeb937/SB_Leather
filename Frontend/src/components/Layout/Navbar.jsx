@@ -61,7 +61,7 @@ export default function Navbar() {
                 {/* Dropdown */}
                 {activeDropdown === "men" && (
                   <div className="absolute left-0 top-full w-56 bg-white shadow-lg border rounded-md z-50">
-                    <a className="block px-4 py-2 hover:bg-gray-100">Wallet</a>
+                    <Link to="/mens/wallets" className="block px-4 py-2 hover:bg-gray-100">Wallet</Link>
                     <a className="block px-4 py-2 hover:bg-gray-100">
                       Card Holder
                     </a>
@@ -211,7 +211,7 @@ export default function Navbar() {
 
             {mobileDropdown === "men" && (
               <div className="pl-4 mt-2 space-y-2 text-gray-600">
-                <p>Wallet</p>
+                <Link to="/mens/wallets">Wallet</Link>
                 <p>Card Holder</p>
                 <p>Document Case</p>
                 <p>Bag</p>
