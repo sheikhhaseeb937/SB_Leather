@@ -20,7 +20,7 @@ export default function Slider() {
       >
         <SwiperSlide>
           <div className="h-full bg-red-200 flex items-center justify-center text-2xl font-semibold">
-          <img src={slider} className="w-full" alt="" />
+          <img src={slider} className="w-full h-full" alt="" />
           </div>
         </SwiperSlide>
 

@@ -6,7 +6,7 @@ import Person2OutlinedIcon from "@mui/icons-material/Person2Outlined";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ShoppingBagOutlinedIcon from "@mui/icons-material/ShoppingBagOutlined";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-
+import { Link } from 'react-router-dom';
 import LogoImg from "../../assets/logoimg/LogoSB.jpeg"
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -33,11 +33,11 @@ export default function Navbar() {
             {/* CENTER: Desktop Menu */}
             <div className="hidden md:flex items-center space-x-10 text-sm font-medium">
            
-<a className="relative cursor-pointer group font-semibold tracking-wide">
+<Link to="/NewArrivals" className="relative cursor-pointer group font-semibold tracking-wide">
   NEW ARRIVALS
 
   <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full"></span>
-</a>
+</Link>
 
               <div
                 className="relative"
